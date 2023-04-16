@@ -10,11 +10,11 @@ export const LeftSide = () => {
 
     input.addEventListener("input", () => {
       if (input.value !== "") {
+        document.querySelector("#advice").style.display = "none";
         document.querySelector("#user-output").style.display = "initial";
         document.querySelector("#copy-button").style.display = "initial";
-        document.querySelector("#advice").style.display = "none";
       } else {
-        document.querySelector("#advice").style.display = "initial";
+        document.querySelector("#advice").style.display = "flex";
         document.querySelector("#user-output").style.display = "none";
         document.querySelector("#copy-button").style.display = "none";
       }
