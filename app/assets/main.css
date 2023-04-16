@@ -7,8 +7,9 @@
   display: flex; 
   align-items: center; 
   justify-content: center; 
-  gap: 20px; 
+  gap: 10px; 
   font-family: "Inter", sans-serif;
+  font-weight: lighter;
 }
 
 #actions .btn-container{ display: flex; justify-content: center; gap: 60px; }
@@ -65,7 +66,6 @@
 #copy-button {
   padding: 20px 0px;
   border-radius: 20px;
-  font-weight: bold;
   font-size: 22px;
   font-family: "Inter", sans-serif;
   cursor: pointer;
