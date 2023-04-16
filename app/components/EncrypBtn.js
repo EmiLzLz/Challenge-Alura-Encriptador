@@ -9,7 +9,7 @@ export const EncrypBtn = () => {
     let output = document.querySelector("#user-output");
     let text = input.value.toLowerCase();
     let newText = "";
-    let char = /[^a-z0-9\s]/g;
+    let char = /[^a-zñ0-9\s]/g;
     const rules = { e: "enter", i: "imes", a: "ai", o: "ober", u: "ufat" };
 
     if (text.match(char)) {
