@@ -5,6 +5,10 @@ export const LeftSide = () => {
   const $leftSide = document.createElement("div");
   $leftSide.classList.add("left-side");
 
+  /**
+   * The function handles user input and displays or hides certain elements based on whether the input
+   * is empty or not.
+   */
   function handleInput() {
     let input = document.querySelector("#user-text");
 

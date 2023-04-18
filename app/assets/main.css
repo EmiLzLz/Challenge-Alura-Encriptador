@@ -17,7 +17,6 @@
 #copy-button {
   background-color: #0a3871;
   color: #d8dfe8;
-  transition: scale 0.3s ease-in-out;
   width: 100%;
   display: none;
 }
@@ -26,10 +25,9 @@
   width: 290px;
   background-color: transparent;
   border: solid 1px #0a3871;
-  transition: scale 0.3s ease-in-out;
 }
 
-#decryp-button:hover, #copy-button:hover{ scale: 0.988; }
+#encryp-button:Active, #decryp-button:active, #copy-button:active{ scale: 0.90; }
 
 .encrypter-container, #header, footer{ background-color: #d8dfe8; }
 
@@ -69,6 +67,7 @@
   font-size: 22px;
   font-family: "Inter", sans-serif;
   cursor: pointer;
+  transition: all 0.1s ease-in-out;
 }
 
 #encryp-button {
@@ -76,10 +75,9 @@
   border: none;
   background-color: #0a3871;
   color: #d8dfe8;
-  transition: all 0.3s ease-in-out;
 }
 
-#encryp-button:hover { scale: 0.988; filter: brightness(150%); }
+#encryp-button:hover { filter: brightness(150%); }
 
 footer{ width: 100%; text-align: center; padding: 4px 0px; }
 
